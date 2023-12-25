@@ -1,0 +1,20 @@
+#to demonstrate different methods of llist
+#creation of list
+l1=["apple","mango","banana","strawberry"]
+print(l1)
+l1.append("orange")
+print(l1)
+l1.extend(["watermelon","kiwi"])
+print(l1)
+l1.pop(2)
+print(l1)
+l1.reverse()
+print(l1)
+l1.insert(1,"guava")
+print(l1)
+l1.remove("apple")
+print(l1)
+l1.sort()
+print(l1)
+l1.sort(reverse=True)
+print(l1)
